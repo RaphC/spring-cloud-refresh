@@ -1,0 +1,19 @@
+spring:
+  profiles:
+  application:
+    name: myliste
+  cloud:
+    config:
+     enabled: false
+  config:
+    location: file:./src/test/resources/
+management: 
+  context-path: /admin
+  security:
+    enabled: false # par defaut les endpoints de management sont securisés
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    org.springframework.cloud: DEBUG
+    com.bouygtel.swad: DEBUG
