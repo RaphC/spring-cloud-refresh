@@ -18,9 +18,9 @@ So then, I change my src/test/resources/application.yml file with the following 
 
 ```
 example:
-myList:
-- H
-- P
+  myList:
+    - H
+    - P
 ```
 
 ... and call POST http://localhost:8080/admin/refresh endpoint. Everything seems fine :
