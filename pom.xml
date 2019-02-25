@@ -64,16 +64,14 @@
 		</plugins>
 	</build>
 	
-		<distributionManagement>
-		<repository>
-			<id>swad_release</id>
-			<url>${swad.release.repository.url}</url>
-		</repository>
-		<snapshotRepository>
-			<uniqueVersion>false</uniqueVersion>
-			<id>swad_snapshot</id>
-			<url>${swad.snapshot.repository.url}</url>
-		</snapshotRepository>
-	</distributionManagement>
-
+		
+		
+			
+			
+		
+		
+			
+			
+			
+		
 </project>
