@@ -8,12 +8,14 @@ spring:
   config:
     location: file:./src/test/resources/
 management: 
-  context-path: /admin
-  security:
-    enabled: false # par defaut les endpoints de management sont securisés
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
 logging:
   level:
     root: INFO
-    org.springframework: INFO
+    org.springframework: DEBUG
     org.springframework.cloud: DEBUG
     com.bouygtel.swad: DEBUG
